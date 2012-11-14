@@ -19,6 +19,8 @@ module OmniAuth
             login: raw_info['login'],
             id: @raw_info['id'],
             uri: raw_info['uri'],
+            image: raw_info['avatar']['thumb_24']['url'],
+            avatar: raw_info['avatar']
         }
       end
 
