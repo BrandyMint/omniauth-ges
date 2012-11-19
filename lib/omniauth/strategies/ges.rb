@@ -17,7 +17,7 @@ module OmniAuth
             name: raw_info['name'],
             email: raw_info['email'],
             login: raw_info['login'],
-            id: @raw_info['id'],
+            id: raw_info['id'],
             uri: raw_info['uri'],
             image: raw_info['avatar']['thumb_24']['url'],
             avatar: raw_info['avatar']
