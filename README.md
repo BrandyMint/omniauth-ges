@@ -22,6 +22,15 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   provider :ges, Settings.oauth.ges.key, Settings.oauth.ges.secret
 end
 
+## Возвращаемые параметры
+
+name
+email
+login
+id
+uri
+image
+
 ## Contributing
 
 1. Fork it
